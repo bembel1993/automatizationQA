@@ -1,4 +1,5 @@
-import java.io.IOException;
+package main;
+
 import java.util.Scanner;
 
 public class Triangle {
@@ -48,15 +49,15 @@ public class Triangle {
             if (a + b > c && a + c > b && b + c > a) {
                 if (a == b || a == c || b == c) {
                     if (a == b && a == c && b == c) {
-                        System.out.println("Triangle is equilateral (равносоторнний)");
+                        System.out.println("main.Triangle is equilateral (равносоторнний)");
                     } else {
-                        System.out.println("Triangle isosceles (равнобедренный)");
+                        System.out.println("main.Triangle isosceles (равнобедренный)");
                     }
                 } else {
-                    System.out.println("Triangle versatile (разносторонний)");
+                    System.out.println("main.Triangle versatile (разносторонний)");
                 }
             } else {
-                System.out.println("Triangle does not exist (не существует)");
+                System.out.println("main.Triangle does not exist (не существует)");
             }
         } else {
             System.out.println("Not input side !");
