@@ -8,5 +8,6 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="apiguardian-api-1.1.2" level="project" />
+    <orderEntry type="library" name="jbehave-core-3.6" level="project" />
   </component>
 </module>

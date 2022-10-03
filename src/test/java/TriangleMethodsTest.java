@@ -15,7 +15,7 @@ class TriangleMethodsTest {
 
     @Test
     void equalateralOrIsosceles() {
-        
+
     }
 
     @Test
